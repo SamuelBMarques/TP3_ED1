@@ -3,6 +3,10 @@
 
 #include "hash.h"
 
+typedef struct {
+    Hash *tabela;   // Tabela hash
+} IndiceInvertido;
+
 // Functions
 IndiceInvertido* aloca();
 void libera(IndiceInvertido *indice);

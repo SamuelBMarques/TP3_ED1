@@ -20,10 +20,6 @@ typedef struct {
     int ocupado[MAX_DOCS];
 } DocHash;
 
-typedef struct {
-    Hash *tabela;   // Tabela hash
-} IndiceInvertido;
-
 int H(char * chave, int m);
 void inserirDocHash(DocHash *set, const char *doc);
 void imprimeDoc(Hash *hash);
