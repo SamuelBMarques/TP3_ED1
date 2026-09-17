@@ -66,18 +66,18 @@ TP3_ED1/
 
 ## 💻 Compilação
 
-Cada implementação possui seus próprios arquivos e pode ser compilada utilizando o GCC.
+Cada implementação possui seus próprios arquivos e pode ser compilada utilizando o Makefile.
 
 Exemplo:
 
 ```bash
-gcc *.c -o programa
+Make
 ```
 
 Depois, execute:
 
 ```bash
-./programa
+./exe
 ```
 
 ---
